@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0; padding:0;
+    
+}
+
+header {
+    background:linear-gradient(to left, #00c6ff, #0072ff);
+    color: white;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    
+    width: 90%;
+    margin: 20px auto;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin:5px;
+}
+
+input, button {
+    padding:8px;
+    margin:5px 0;
+}
+
+table th, table td {
+    padding:10px;
+    text-align:center;
+}
+.banner {
+    background-image: url('images/banner.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
