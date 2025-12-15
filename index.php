@@ -17,7 +17,7 @@ session_start();
             <a href="about.php">About</a>
             <?php if(!isset($_SESSION['user_id'])): ?>
                 <a href="register.php">Register</a>
-                <a href="login.php">Login</a>
+                <a href="/login.php">Login</a>
             <?php else: ?>
                 <a href="logout.php">Logout</a>
             <?php endif; ?>

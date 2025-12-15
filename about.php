@@ -13,7 +13,8 @@ session_start();
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #00c6ff, #0072ff);
+            background: 
+            ;
             color: #333;
         }
 
