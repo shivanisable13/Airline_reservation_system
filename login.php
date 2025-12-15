@@ -1,7 +1,6 @@
 <?php
 session_start();
-include __DIR__ . '/db.php';
-include __DIR__ . '/layout.php';
+include 'db.php';
 
 
 if(isset($_POST['login'])){
