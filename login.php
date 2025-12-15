@@ -1,6 +1,8 @@
 <?php
 session_start();
-include 'db.php';
+include __DIR__ . '/db.php';
+include __DIR__ . '/layout.php';
+
 
 if(isset($_POST['login'])){
     $email = $_POST['email'];
@@ -28,7 +30,7 @@ if(isset($_POST['login'])){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body style="background-color: lightblue;">
     <center>
